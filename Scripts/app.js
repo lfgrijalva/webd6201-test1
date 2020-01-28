@@ -56,9 +56,15 @@ let app;
             //Toggle between "Hide details" and "Learn More"
             if (largeButton.textContent == "Learn More") {
                 largeButton.textContent = "Hide Details";
+                //Step 2.3
+                //If the text was "learn more", show the firstParagraph element
+                firstParagraph.style.display = 'block';
             }
             else{
                 largeButton.textContent = "Learn More";
+                //Step 2.3
+                //If the text was "hide details", hide the firstParagraph element
+                firstParagraph.style.display = 'none';
             }
         })
         Main();
