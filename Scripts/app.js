@@ -48,7 +48,12 @@ let app;
         firstParagraph.style.display = 'none';
 
 
-
+        //Step 2 Javascript events
+        //Step 2.1
+        //Using the same element, add a click event to the button
+        largeButton.addEventListener("click",() =>{
+            
+        })
         Main();
     }
 
