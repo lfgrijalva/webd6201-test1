@@ -37,6 +37,11 @@ let app;
         //Insert the element before the "largeButton" element
         contentArea.insertBefore(h3Name,largeButton);
 
+        //Step 1.3
+        //Get the firstParagraph element
+        let firstParagraph = document.getElementById("firstParagraph");
+        //Replace its text
+        firstParagraph.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods";
 
         Main();
     }
