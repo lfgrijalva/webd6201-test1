@@ -27,6 +27,17 @@ let app;
         //Change the text property
         largeButton.textContent = "Learn More";
 
+        //Step 1.2
+        //Create a new h3 element
+        let h3Name  = document.createElement("h3");
+        //Set the text
+        h3Name.textContent = "Luis Grijalva 100719475";
+        //Get the contentArea element
+        let contentArea  = document.getElementById("contentArea");
+        //Insert the element before the "largeButton" element
+        contentArea.insertBefore(h3Name,largeButton);
+
+
         Main();
     }
 
