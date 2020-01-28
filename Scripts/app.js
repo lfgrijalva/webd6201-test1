@@ -43,6 +43,12 @@ let app;
         //Replace its text
         firstParagraph.textContent = "JavaScript is a prototype-based language, and every object in JavaScript has a hidden internal property called Prototype that can be used to extend object properties and methods";
 
+        //Step 1.4
+        //Using the same object, hide the paragraph using css styling
+        firstParagraph.style.display = 'none';
+
+
+
         Main();
     }
 
