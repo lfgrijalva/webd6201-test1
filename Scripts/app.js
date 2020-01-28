@@ -52,7 +52,14 @@ let app;
         //Step 2.1
         //Using the same element, add a click event to the button
         largeButton.addEventListener("click",() =>{
-            
+            //Step 2.2
+            //Toggle between "Hide details" and "Learn More"
+            if (largeButton.textContent == "Learn More") {
+                largeButton.textContent = "Hide Details";
+            }
+            else{
+                largeButton.textContent = "Learn More";
+            }
         })
         Main();
     }
